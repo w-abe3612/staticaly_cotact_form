@@ -1,0 +1,35 @@
+.l-header {
+    display: block;
+    width: 100%;
+}
+
+.l-container {
+    width: 100%;
+    background-color: $global-bg-color;
+    padding-bottom: 50px;
+    position: relative;
+
+    @include mq(xs) {
+        padding-bottom: 30px;
+    }
+}
+
+.l-section {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 50px;
+    &.is-thanks{
+        min-height:calc(100vh - 200px);
+    }
+
+    @include mq(xs) {
+        width: 90%;
+        padding-top: 30px;
+    }
+}
+
+
+.l-footer {
+    width: 100%;
+}

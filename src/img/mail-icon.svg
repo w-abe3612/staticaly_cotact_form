@@ -1,0 +1,16 @@
+<svg id="mailicon" viewBox="0 0 869 774" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mail">
+<rect id="Rectangle 1" x="1.50346" y="270" width="865.994" height="501" fill="#C4C4C4"/>
+<path id="Vector 2" d="M867.498 270H1.50346L438.505 0L867.498 270Z" fill="#C4C4C4"/>
+<g id="face">
+<rect id="Rectangle 2" x="49.6143" y="307" width="769.773" height="447" fill="#F8F7F7"/>
+<path id="mouse" d="M319 549C319 549 370.5 589.5 439 589.5C507.5 589.5 550.5 549 550.5 549" stroke="#5A564F" stroke-width="5"/>
+<circle id="Ellipse 1" cx="311.5" cy="473.5" r="7.5" fill="#5A564F"/>
+<circle id="Ellipse 2" cx="558.5" cy="473.5" r="7.5" fill="#5A564F"/>
+</g>
+<path id="Vector 1" d="M1.50346 774V273L438.223 513.145L867.498 273V523.5V774H1.50346Z" fill="#C4C4C4"/>
+<path id="Vector 5" d="M868.499 773H0.50058L436.253 511L868.499 773Z" fill="#FA6A23"/>
+<path id="Vector 4" d="M867.498 271L867.498 774L438.51 513L867.498 271Z" fill="#FF9560"/>
+<path id="Vector 3" d="M0 774V274L438.51 513L0 774Z" fill="#FF9560"/>
+</g>
+</svg>

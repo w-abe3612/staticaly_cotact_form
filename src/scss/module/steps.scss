@@ -1,0 +1,74 @@
+.s-wrap {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    overflow: hidden;
+
+    .step {
+        width: 33.4%;
+        height: auto;
+        position: relative;
+        padding: 8px 0px;
+        background-color: $steps-color;
+        color: $fc-separate;
+        text-align: center;
+        position: relative;
+        font-size: $small-font-size;
+        font-weight: 400;
+
+        span {
+            display: block;
+            font-size: $subtitle-font-size;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            transform: unset;
+            width: 0px;
+            background-color: transparent;
+            top: -10px;
+            right: -58px;
+            border: 42px solid transparent;
+            z-index: 2;
+            border-left: 24px solid $steps-color;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            transform: unset;
+            width: 0px;
+            background-color: transparent;
+            top: -10px;
+            right: -62px;
+            border: 42px solid transparent;
+            z-index: 1;
+            border-left: 24px solid $global-bg-color;
+        }
+
+
+        &:last-child {
+            &:before {
+                display: none;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &.current {
+            background-color: $steps-current-color;
+            color: $fc-separate;
+
+            &:before {
+                border-left: 24px solid $steps-current-color;
+            }
+
+        }
+
+    }
+}

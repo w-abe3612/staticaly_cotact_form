@@ -1,0 +1,14 @@
+#mailicon{
+    display:block;
+    width:80%;
+    margin:30px auto;
+    @include mq(xs){
+        width:100%;
+    }
+}
+
+#thaksMess{
+    display: block;
+    width: 42%;
+    margin: 10px auto;  
+}

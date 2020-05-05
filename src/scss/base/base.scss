@@ -1,0 +1,20 @@
+@charset 'utf8';
+html, body {
+  font-family:$font-family;
+  padding: 0;
+  margin: 0;
+  color:$primary;
+  font-size:$fs-base;
+}
+
+p{
+    margin:0;
+}
+
+input {
+    &:focus { outline:none; }
+}
+
+textarea {
+   &:focus { outline:none; } 
+}

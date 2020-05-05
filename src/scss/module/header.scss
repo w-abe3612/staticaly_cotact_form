@@ -1,0 +1,12 @@
+.l-header{
+    width:100%;
+    height:60px;
+    background:$primary;
+    display:table;
+    h1{
+        font-size:1.8rem;
+        color:$fc-separate;
+          display:table-cell;
+          vertical-align:middle; 
+    }
+}

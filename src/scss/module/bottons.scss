@@ -1,0 +1,58 @@
+dd.submit_btns {
+    width: 100%;
+    max-width: 543px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    @include mq(sm){
+        flex-direction:column;
+    }
+
+    p {
+        width: 100%;
+        margin:0 auto;
+        .submitsBtns {
+            display:block;
+            width:100%;
+            max-width:240px;
+            height: auto;
+            background-color: #ff9560;
+            border:1.5px solid #ff9560;
+            color:#ffffff;
+            letter-spacing: 2px;
+            font-size:$primary-font-size;
+            text-align: center;
+            height: 42px;
+            margin: 0 auto;
+            transition: .4s;
+            &:hover{
+                color: $fc-separate;
+                box-shadow: 0 0 12px #7d7d7d;
+                
+            }
+            
+            &#returnBtn{
+                background-color: #bfbfbf;
+                border:1.5px solid #bfbfbf;
+            }
+            
+            &#confirmBtn.error{
+                background-color: $important-msg-color;
+                border:1.5px solid $important-msg-color;
+                color:$fc-separate;
+            }
+        }
+        &.hid {
+            display:none; 
+        }
+        
+        &#submitBox{
+            @include mq(sm){
+                margin-top:25px;
+            }
+        }
+    }
+
+
+}

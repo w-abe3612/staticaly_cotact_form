@@ -1,0 +1,42 @@
+
+$font-family:'Roboto',meiryo, Arial, "hiragino kaku gothic pro","ms pgothic",sans-serif;
+$fs-base:62.5%;
+
+$small-font-size: 1.4rem;
+$primary-font-size: 1.6rem;
+$subtitle-font-size:1.8rem ;
+$heading-font-size:3.6rem ;
+
+
+$primary-line-height: 1.5rem;
+$primary-letter-spaceing: 0.8pt;
+
+$global-bg-color:#F5F1E9;
+
+$form-bg-color:#f1f0f0;
+
+$primary:#262626;
+$fc-separate:#ffffff;
+$steps-current-color:#0C555D;
+$steps-color:#CCDFCC;
+
+$checked-border-width:3px;
+
+$important-msg-color:#FF6860;
+
+$border-color:#e0e0e0;
+$border-width:1.5px;
+$border-style:solid;
+
+$breakpoints: (
+  'sm': 'screen and (max-width: 480px)',
+  'xs': 'screen and (max-width: 768px)',
+  'sp': 'screen and (max-width: 896px)',
+  'pc': 'screen and (max-width: 1024px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
